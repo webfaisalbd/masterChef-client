@@ -19,7 +19,7 @@ const AllServices = () => {
         <Box sx={{ flexGrow: 1 }}>
           <Typography sx variant="h4" component="div" sx={{ flexGrow: 1 , m: 3 }}>
           <Typed
-                    strings={['Our All Products ']}
+                    strings={['Our All Services ']}
                     typeSpeed={150}
                 />
                 <br/> 

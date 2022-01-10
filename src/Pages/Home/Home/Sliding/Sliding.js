@@ -45,26 +45,21 @@ const Sliding = () => {
         
         <Slider {...settings}>
           <div>
-          <img style={{ width: "600px",   height: "400px"}} src="https://i.ibb.co/52xcPWS/sliding2.jpg" />   
+          <img style={{ width: "600px",   height: "400px"}} src="https://i.ibb.co/jhx09nF/italian.png" />   
           </div>
           <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/KsS530S/sliding3.jpg" />
+          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/mDJzyFk/mexican.png" />
           </div>
           <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/w78RWM8/sliding5.jpg" />
+          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/fGCtKj2/thai.png" />
           </div>
           <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/Rj57jg8/sliding6.jpg" />
+          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/ThD4T9B/persian.png" />
           </div>
           <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/KFPTfVD/sliding7.jpg" />
+          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/tL4G9kR/african.png" />
           </div>
-          <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/Jt1G68h/sliding13.png" />
-          </div>
-          <div>
-          <img style={{ width: "100%",   height: "400px"}} src="https://i.ibb.co/2sfTrVv/sliding12.jpg" />
-          </div>
+        
           
         </Slider>
       </div>
