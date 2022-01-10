@@ -8,7 +8,7 @@ import Typed from 'react-typed';
 const Services = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:3000/services')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data.slice(0, 6)));
     }, [])
@@ -19,7 +19,7 @@ const Services = () => {
           <Typography sx variant="h4" component="div" sx={{ flexGrow: 1 , m: 3 }}>
                          
                         <Typed
-                    strings={['Our Latest Products']}
+                    strings={['Our Premium Services']}
                     typeSpeed={150}
                 />
                 <br/>

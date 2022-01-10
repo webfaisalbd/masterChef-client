@@ -18,7 +18,7 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:3000/services/${serviceId}`)
+        fetch(`http://localhost:5000/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
@@ -33,7 +33,7 @@ const Booking = () => {
         const bookingItem = { ...data, status };
 
 
-        axios.post('http://localhost:3000/buyer', bookingItem)
+        axios.post('http://localhost:5000/buyer', bookingItem)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {

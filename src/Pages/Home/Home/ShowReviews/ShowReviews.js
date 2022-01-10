@@ -9,7 +9,7 @@ import Typed from 'react-typed';
 const ShowReviews = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:3000/review')
+        fetch('http://localhost:5000/review')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])

@@ -121,7 +121,7 @@ const Navigation = () => {
                             <MenuIcon />
                         </IconButton>
                         <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                           Riders
+                           MasterChef
                         </Typography>
 
 
@@ -132,7 +132,7 @@ const Navigation = () => {
                                 <Button color="inherit">Home</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/AllServices">
-                                <Button color="inherit">AllProducts</Button>
+                                <Button color="inherit">Our Services</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/dashboard">
                                 <Button color="inherit">Dashboard</Button>
