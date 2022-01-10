@@ -14,18 +14,18 @@ const Service = ({ service }) => {
         <Typography gutterBottom variant="h5" component="div">
           {name}
         </Typography>
-        <Typography variant="h6" color="text.secondary" sx={{ color: "white" , p:1 }}>
-          {price} BDT
+        <Typography variant="h6" color="text.secondary" sx={{  p:1 }}>
+          Cost: {price} BDT
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        {/* <Typography variant="body2" color="text.secondary">
           {description.slice(0,60)}.....
-        </Typography>
+        </Typography> */}
       </CardContent>
       <CardActions>
         
       <Link to={`/booking/${_id}`}  style={{textDecoration:"none"}}>
              <Tooltip  title="Click" placement="top">
-             <Button variant="contained"  size="small">Buy Now</Button>
+             <Button variant="contained"  size="small">Book Now</Button>
              </Tooltip>
         </Link>
         

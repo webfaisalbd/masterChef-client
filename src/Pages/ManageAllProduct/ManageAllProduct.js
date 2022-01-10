@@ -64,7 +64,7 @@ typeSpeed={150}
         <Typography gutterBottom variant="h5" component="div">
           {service.name}
         </Typography>
-        <Typography variant="h6" color="text.secondary" sx={{ color: "white" , p:1 }}>
+        <Typography variant="h6" color="text.secondary" sx={{p:1 }}>
           {service.price} BDT
         </Typography>
         <Typography variant="body2" color="text.secondary">

@@ -69,7 +69,7 @@ typeSpeed={150}
         <Typography gutterBottom variant="h5" component="div">
           {user.name}
         </Typography>
-        <Typography variant="h6" color="text.secondary"  sx={{ color: "white" , p:1 }}>
+        <Typography variant="h6" color="text.secondary"  sx={{ p:1 }}>
           {user.email} BDT
         </Typography>
         <Typography variant="body2" color="text.secondary">
