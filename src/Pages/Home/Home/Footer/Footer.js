@@ -20,18 +20,18 @@ const Footer = () => {
   	 			<h4>get help</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
+  	 				<li><a href="#">PreBook</a></li>
+  	 				<li><a href="#">Chef Location status</a></li>
+  	 				<li><a href="#">Payment options</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>online shop</h4>
+  	 			<h4>Speciality</h4>
   	 			<ul>
-  	 				<li><a href="#">brand</a></li>
-  	 				<li><a href="#">model</a></li>
-  	 				<li><a href="#">warranty</a></li>
-  	 				<li><a href="#">delivery hour</a></li>
+  	 				<li><a href="#">Experienced</a></li>
+  	 				<li><a href="#">Pre Test</a></li>
+  	 				<li><a href="#">Recipe Discussion</a></li>
+  	 				<li><a href="#">Foreign Ingredience</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">

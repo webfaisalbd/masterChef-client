@@ -17,9 +17,9 @@ const Service = ({ service }) => {
         <Typography variant="h6" color="text.secondary" sx={{  p:1 }}>
           Cost: {price} BDT
         </Typography>
-        {/* <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary">
           {description.slice(0,60)}.....
-        </Typography> */}
+        </Typography>
       </CardContent>
       <CardActions>
         

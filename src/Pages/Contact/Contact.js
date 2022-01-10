@@ -1,7 +1,8 @@
-import { Grid } from '@mui/material';
+import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Typed from 'react-typed';
 import './Contact.css';
 
 const Contact = () => {
@@ -25,6 +26,12 @@ emailjs.sendForm('riderEmailJs', 'template_tepw8fx', e.target, 'user_GRE3LjNVYWK
 
     return (
         <Box sx={{ flexGrow: 1 }}>
+          <Typography  variant="h4" component="div">
+             <Typed
+                    strings={['Contact Us']}
+                    typeSpeed={250}
+                />
+          </Typography>
       <Grid container spacing={2} columns={16}>
         <Grid item xs={8}>
           <div>
