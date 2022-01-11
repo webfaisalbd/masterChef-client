@@ -64,7 +64,7 @@ function Dashboard(props) {
 
 
              {
-                 !admin && <Box>
+                 admin && <Box>
                 <Link to="/home" ><Button>Home</Button></Link>
                 <Divider />
                  <Link to={`${url}/makeAdmin`}><Button color="inherit">Make Admin</Button></Link>

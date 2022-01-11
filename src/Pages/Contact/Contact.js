@@ -25,7 +25,10 @@ emailjs.sendForm('masterChef', 'template_tepw8fx', e.target, 'user_GRE3LjNVYWK3o
 
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <div  data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+          <Box sx={{ flexGrow: 1 }}>
           <Typography  variant="h4" component="div">
              <Typed
                     strings={['Contact Us']}
@@ -69,6 +72,7 @@ emailjs.sendForm('masterChef', 'template_tepw8fx', e.target, 'user_GRE3LjNVYWK3o
         </Grid>
       </Grid>
     </Box>
+        </div>
     );
 };
 

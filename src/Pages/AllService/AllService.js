@@ -8,7 +8,10 @@ const AllService = ({ service }) => {
     const { _id, name, price, description, img } = service;
     
     return (
-      <Card sx={{  boxShadow: 2 }}>
+      <div  data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000">
+        <Card sx={{  boxShadow: 2 }}>
       <img style={{height:"250px"}} src={img} />
       <Box>
       <Typography className="ratingCard">
@@ -35,6 +38,7 @@ const AllService = ({ service }) => {
       </Typography>
       </Box>
     </Card>
+      </div>
     );
 };
 

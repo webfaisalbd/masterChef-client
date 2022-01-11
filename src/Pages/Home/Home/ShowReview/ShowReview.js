@@ -9,7 +9,10 @@ const ShowReview = ({ service }) => {
     // const {service} = props;
     const { _id, name, email, description, rating } = service;
     return (
-      <Card  className="ratingCard"  sx={{ maxWidth: 345 }}>
+      <div   data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000">
+        <Card  className="ratingCard"  sx={{ maxWidth: 345 }}>
       <CardActionArea>
         
         <img style={{marginTop:"10px", borderRadius:'50%'}} width='25%' src="https://i.ibb.co/qdG3jRx/menIcon.png" alt="" />
@@ -31,6 +34,7 @@ const ShowReview = ({ service }) => {
         </CardContent>
       </CardActionArea>
     </Card>
+      </div>
     );
 };
 
