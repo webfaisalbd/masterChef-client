@@ -8,7 +8,7 @@ const HeroSection = () => {
                 
 <div class="wrapper">
   <div class="message">
-    <h1>ChefMaster</h1>    
+    <h1>MasterChef</h1>    
     <p>Get the best Chef to your test.</p>
     <p>Chineese,Thai,Italian....Chefs are available</p>
   </div>
