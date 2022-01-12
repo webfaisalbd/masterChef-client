@@ -18,7 +18,7 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://stark-thicket-76655.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
@@ -33,7 +33,7 @@ const Booking = () => {
         const bookingItem = { ...data, status };
 
 
-        axios.post('http://localhost:5000/buyer', bookingItem)
+        axios.post('https://stark-thicket-76655.herokuapp.com/buyer', bookingItem)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {

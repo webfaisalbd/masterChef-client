@@ -12,7 +12,7 @@ const ManageAllOrder = () => {
     // console.log(user.email);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/buyer`)
+        fetch(`https://stark-thicket-76655.herokuapp.com/buyer`)
             .then(res => res.json())
             .then(data => {
                 
@@ -26,7 +26,7 @@ const ManageAllOrder = () => {
 
         const proceed = window.confirm('Are You want to cancel order? Confirm ?')
         if (proceed) {
-            const url = `http://localhost:5000/buyer/${id}`;
+            const url = `https://stark-thicket-76655.herokuapp.com/buyer/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -53,7 +53,7 @@ const ManageAllOrder = () => {
 
     newOrder.status = "Shipped";
     delete newOrder._id;
-    const url = `http://localhost:5000/buyer/${order._id}`;
+    const url = `https://stark-thicket-76655.herokuapp.com/buyer/${order._id}`;
     fetch(url, {
         method: "PUT",
         headers: {
