@@ -20,8 +20,7 @@ const CookingArt = () => {
           <CardMedia
         component="img"
         height="350"
-        image="https://media.istockphoto.com/photos/world-cuisine-picture-id163807674?k=20&m=163807674&s=612x612&w=0&h=kN3sr79lylQ3JJpK59wpKVUPkLF8nO5cX6EWF7ojJqQ="
-        alt="Paella dish"
+        image="https://i.ibb.co/s1RkFn1/chefs-holding-dishes-from-4-countries.jpg"
       />
           </div>
           </div>
@@ -33,7 +32,7 @@ const CookingArt = () => {
         <CardMedia
         component="img"
         height="200"
-        image="https://images2.minutemediacdn.com/image/upload/c_crop,h_1414,w_2101,x_9,y_0/v1554742661/shape/mentalfloss/558316-istock-875991936_primary.jpg?itok=tRcFzKav"
+        image="https://i.ibb.co/Mc3SmF5/testChef.png"
         alt="Paella dish"
       /> 
         <div  data-aos="fade-up"
